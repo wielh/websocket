@@ -1,0 +1,21 @@
+server:
+  host: "localhost"
+  port: 8085
+  session: 
+    secret_key: abcdefg
+    age_second: 86400
+    http_only: true
+    secure: false
+database:
+  host: "localhost"
+  user: "postgres"
+  password: "root"
+  name: "device_communication"
+  port: 5432
+  sslmode: disable
+redis:
+  address: "localhost:6379"
+  password: ""
+  db: 5
+  max_connection: 30
+  min_connection: 5
